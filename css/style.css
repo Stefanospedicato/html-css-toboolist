@@ -9,19 +9,21 @@
 
 body{
   background-color: #F6F8FA;
+
 }
+
 
 header{
   background-color: white;
   color: black;
-  padding-bottom: 50px;
+  padding-bottom: 5px;
 }
 
 header .img{
   padding-left: 20px;
   padding: 20px;
   vertical-align: middle;
-
+  
 }
 
 h1{
@@ -31,21 +33,21 @@ h1{
   text-align: middle;
 }
 
+.sfondo{
+  background-color:white;
+  border-radius: 2%;
+  padding-left: 30px;
+  padding-top: 30px;
+  margin: 40px;
 
 /* ********MAIN*********** */
 
 
-main{
-  background-color: ;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.3rem;
-}
 
 .conteiner{
   max-width: 785px;
   background-color: white;
   margin: 0 auto;
-  width: 90%;
 }
 
 .add{
@@ -67,7 +69,7 @@ h2{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1,5rem;
   font-weight: bold;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -89,15 +91,93 @@ h2{
  color: red;
 
 }
-.sfondo{
-  background-color:white;
-  border-radius: 2%;
-  padding-left: 30px;
-  padding-top: 30px;
-  margin: 40px;
-}
+
 
 .elenco{
   padding: 10px;
 
+}
+
+.editorial{
+  background-color: #49ACF2;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  width: 80px;
+  height: 25px;
+  line-height: 25x;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 10%;
+  margin: 5px
+}
+
+.q-goals{
+  background-color: #9C73E0;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  width: 80px;
+  height: 25px;
+  line-height: 25x;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 10%;
+  margin: 5px
+}
+
+.recruiting{
+  background-color:#67C1AC;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  width: 80px;
+  height: 25px;
+  line-height: 25x;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 10%;
+  margin: 5px
+}
+
+.mobile{
+  background-color:#EEA030;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  width: 80px;
+  height: 25px;
+  line-height: 25x;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 10%;
+  margin: 5px
+}
+
+.website{
+  background-color: #D8679F;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  width: 80px;
+  height: 25px;
+  line-height: 25x;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 10%;
+  margin: 5px;
+}
+
+.sales{
+  background-color: #B1CA30;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  width: 80px;
+  height: 25px;
+  line-height: 25x;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 10%;
+  margin: 5px
 }
