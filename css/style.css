@@ -32,11 +32,47 @@ h1{
 
 
 main{
-  background-color: #F6F8FA;
+  background-color:gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
 }
 
 .conteiner{
   max-width: 785px;
   background-color: white;
   margin: 0 auto;
+  width: 90%;
+}
+
+.add{
+  padding-bottom: 50px;
+}
+
+
+button{
+  display: inline-block ;
+  background-color: #49ACF2;
+  color: white;
+  border-radius: 10%;
+  padding: 10px;
+  border-color:white;
+}
+
+.riquadro{
+  color: lightgray;
+  border-color: lightgray;
+  border: lightgray;
+  border-width: 2px;
+}
+
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1,5rem;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.elenco{
+
 }
