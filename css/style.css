@@ -21,34 +21,41 @@ header{
 
 header .img{
   padding-left: 20px;
-  padding: 20px;
   vertical-align: middle;
+  
   
 }
 
 h1{
+  display: inline-block;
   font-size: 2.5rem;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: middle;
+  vertical-align: auto;
 }
 
+/* ******** FINE HEADER ***** */
+
+/* ******** GENERALE ******* */
 .sfondo{
   background-color:white;
   border-radius: 2%;
-  padding-left: 30px;
+  padding-left: 40px;
   padding-top: 30px;
-  margin: 40px;
+  margin:40px;
+  max-width: 785px;
+}
+
+.carattere{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+}
+
+/* ********* FINE GENERALE *********/
 
 /* ********MAIN*********** */
 
 
-
-.conteiner{
-  max-width: 785px;
-  background-color: white;
-  margin: 0 auto;
-}
 
 .add{
   padding-bottom: 50px;
@@ -64,6 +71,15 @@ button{
   border-color:white;
 }
 
+.riquadro{
+  font-family: Arial, Helvetica, sans-serif;
+  color:lightgray;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-color: rgb(177, 159, 159);
+  border-radius: 10%;
+}
 
 h2{
   font-family: Arial, Helvetica, sans-serif;
@@ -71,6 +87,10 @@ h2{
   font-weight: bold;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+li{
+  padding: 10px;
 }
 
 .liste{
@@ -97,6 +117,9 @@ h2{
   padding: 10px;
 
 }
+
+
+/* ********* ETICHETTE ******** */
 
 .editorial{
   background-color: #49ACF2;
@@ -181,3 +204,5 @@ h2{
   border-radius: 10%;
   margin: 5px
 }
+
+/********** FINE ETICHETTE ****** */
