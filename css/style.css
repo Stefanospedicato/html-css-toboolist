@@ -7,10 +7,14 @@
 
 /* *********HEADER********* */
 
+body{
+  background-color: #F6F8FA;
+}
 
 header{
   background-color: white;
   color: black;
+  padding-bottom: 50px;
 }
 
 header .img{
@@ -24,7 +28,7 @@ h1{
   font-size: 2.5rem;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
-  vertical-align: middle;
+  text-align: middle;
 }
 
 
@@ -32,7 +36,7 @@ h1{
 
 
 main{
-  background-color:gray;
+  background-color: ;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.3rem;
 }
@@ -58,12 +62,6 @@ button{
   border-color:white;
 }
 
-.riquadro{
-  color: lightgray;
-  border-color: lightgray;
-  border: lightgray;
-  border-width: 2px;
-}
 
 h2{
   font-family: Arial, Helvetica, sans-serif;
@@ -73,6 +71,33 @@ h2{
   padding-bottom: 20px;
 }
 
+.liste{
+  padding: 20px;
+}
+
+
+.check{
+  color: lightgreen;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  vertical-align: middle
+}
+
+.cross{
+ color: red;
+
+}
+.sfondo{
+  background-color:white;
+  border-radius: 2%;
+  padding-left: 30px;
+  padding-top: 30px;
+  margin: 40px;
+}
+
 .elenco{
+  padding: 10px;
 
 }
